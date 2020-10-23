@@ -1,7 +1,7 @@
 import { Box, Button, Container, Spinner, Stack } from "@chakra-ui/core";
 import Axios from "axios";
 import { NextPage } from "next";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { AyahCard } from "../../components/AyahCard";
 import { Chapter } from "../../interfaces/QuranChapter";
 import Router from "next/router";
