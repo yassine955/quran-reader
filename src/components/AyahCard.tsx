@@ -11,7 +11,7 @@ export const AyahCard: FC<Props> = ({ data }) => {
     <Box boxShadow="0px 0px 7px 0px #404040" background="#272727" width="100%">
       <Box padding="4rem 30px">
         <Text dir="rtl" fontSize="6xl" fontWeight="100" color="#FFF">
-          {data?.text_madani}
+          {data?.text_indopak}
         </Text>
       </Box>
       <Divider />
